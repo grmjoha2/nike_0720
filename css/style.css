@@ -71,4 +71,16 @@ h1 img { width:280px }
 .side .con > p:nth-child(3) {bottom: 50px; transition: all 1.2s;}
 .side .con > p > em {font: bold normal 16px/1.7 arial; color: #a0bd50; display: inline-block; transform: skew(40deg);}
 
-.side .btnContents {position: absolute; bottom: 40px; left: 0; color: #b9fb05; transform: skew(40deg);}
+.side .btnContents {position: absolute; width: 150px; height: 50px; bottom: 40px; left: 100px; color: #b9fb05; transform: skew(40deg); font-size: 60px;}
+.side .btnContents i {position: absolute; bottom: 0; right: 0;
+animation: arrowAni 1.5s infinite linear;
+}
+.side:hover .btnContents {left: 700px;}
+.side .btnContents i:nth-child(1) {animation-delay: 0s;}
+.side .btnContents i:nth-child(2) {animation-delay: 0.5s;}
+.side .btnContents i:nth-child(3) {animation-delay: 1s;}
+
+@keyframes arrowAni {
+    0% {}
+    100% {transform: translate(-100px) scale(1.5); opacity: 0;}
+}
