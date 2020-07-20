@@ -49,5 +49,5 @@ h1 img { width:280px }
 .nav .depth2 > li > a > span { transform:skew(40deg); display:inline-block }
 
 .sns {position: fixed; top: 60px; right: 50px;}
-.sns li {display: inline-block; margin-left: 20px; font-size: 25px; color: #fff; opacity: 0.5; transition: all 0.5s;}
+.sns li {display: inline-block; margin-left: 20px; font-size: 25px; color: #b9fb05; opacity: 0.5; transition: all 0.5s;}
 .sns li:hover {transform: scale(1.4); opacity: 1;}
